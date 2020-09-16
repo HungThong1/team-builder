@@ -13,7 +13,7 @@ const NewMember = props =>{
       }
     return(
     <form onSubmit={oSubmit}>
-    <input name='Name' type="text" value={value.name} onChange={change} />
+    <input name='name' type="text" value={value.name} onChange={change} />
     <button disabled={!value.name} >submit</button>
     </form>
     )
